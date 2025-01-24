@@ -1,1 +1,1 @@
-# CPE314
+# CPE314 Computer Network
