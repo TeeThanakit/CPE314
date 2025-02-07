@@ -1,0 +1,14 @@
+$TTL 86400
+@ IN SOA pc2.cpenetwork.lab. root (
+	1
+	28800
+	14400
+	3600000
+	86400
+	)
+@ IN NS pc2.cpenetwork.lab.
+pc2 IN A 10.0.1.2
+pc1 IN A 10.0.1.1
+pc3 IN A 10.0.1.3
+dns-server IN CNAME pc2
+www IN CNAME pc2

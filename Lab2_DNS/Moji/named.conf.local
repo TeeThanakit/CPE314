@@ -1,0 +1,9 @@
+zone "cpenetwork.lab" {
+	type master;
+	file "/etc/bind/zones/cpenetwork.lab.db";
+};
+
+zone "1.1.10.in-addr.arp" {
+	type master;
+	file "/etc/bind/zones/cpenetwork.lab-reverse.db";
+};

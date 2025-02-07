@@ -1,0 +1,12 @@
+$TTL 86400
+@ IN SOA pc2.cpenetwork.lab. root(
+	1
+	28800
+	14400
+	3600000
+	86400
+	)
+@ IN NS pc2.cpenetwork.lab.
+1 IN PTR pc1.cpenetwork.lab.
+2 IN PTR pc2.cpenetwork.lab.
+3 IN PTR pc3.cpenetwork.lab.
